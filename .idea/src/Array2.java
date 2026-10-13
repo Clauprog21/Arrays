@@ -3,6 +3,7 @@ public class Array2 {
         int[] num= new int[10];
         int p=0;
         int n=0;
+
         for (int i = 0; i < num.length; i++){
             if (num[i]>=0) {
                 p += num[i];
@@ -12,7 +13,5 @@ public class Array2 {
             }
             }
         }
-        System.out.println("Suma de los positivos: " + p);
-        System.out.println("Suma de los negativos: " + n);
     }
-}
+
