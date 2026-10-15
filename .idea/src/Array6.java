@@ -1,16 +1,15 @@
 public class Array6 {
     public static void main(String[] args) {
         int[] num={0,1,2,3,4,5,6,7,8,9};
-        int indice=8;
-        for (int i = 0; i < num.length; i++) {
-            for (int j = indice; j < num.length ; j++) {
-                if(num[i]<indice){
+        int pa = 10;
+        for (int i=pa;i<num.length-1;i++) {
+            num[i] = num[i+1];
 
                 }
-            }
 
 
-            }
+    }
+
 
 
     }
