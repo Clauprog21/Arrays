@@ -5,7 +5,7 @@ public class Array7 {
         double[] temp = new double[7];
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < temp.length; i++) {
-            System.out.println("Introduce la temperatuda del " + dias[i]);
+            System.out.println("Introduce la temperatuda del " + días[i]);
             do {
                 temp[i] = sc.nextDouble();
             } while (temp[i] < -30 || temp[i] > 50);
