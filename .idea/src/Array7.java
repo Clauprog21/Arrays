@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Array7 {
     public static void main(String[] args) {
         String[] días = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"};
@@ -11,14 +10,10 @@ public class Array7 {
                 temp[i] = sc.nextDouble();
             } while (temp[i] < -30 || temp[i] > 50);
         }
-        // Ahora tenemos el arry temp con las
-        // temperauras de cada día.
 
         double sumaTemperatura = 0;
         System.out.println("media");
         for (int i = 0; i < temp.length; i++) {
-            // A sumaTemperatura has de sumarle
-            // el valor de la temperatura de ese día
             sumaTemperatura += temp[i];
         }
         System.out.println("media sem " + sumaTemperatura / 7 + " ");
