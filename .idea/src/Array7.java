@@ -49,7 +49,7 @@ public class Array7 {
         double ms = 0;
         double sub = 0;
         int pos = 0;
-        for (int i = 0; i < temp.length; i++) {
+        for (int i = 0; i < temp.length - 1; i++) {
             sub = temp[i + 1] - temp[i];
             if (sub > max) {
                 max = sub;
@@ -58,19 +58,14 @@ public class Array7 {
         }
         System.out.println("ms: " + sub + " " + días[pos] + " a " + días[pos + 1]);
 
-        for (int i = 0; i < días.length(); i++) {
+        for (int i = 0; i < días.length; i++) {
             System.out.print(días[i] + " ");
             for (int j = 0; j < temp[i]; j++) {
                 System.out.print("*");
-
-
             }
             System.out.println();
         }
-
     }
-
-    }
-
-
 }
+
+
