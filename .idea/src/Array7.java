@@ -58,5 +58,19 @@ public class Array7 {
         }
         System.out.println("ms: " + sub + " " + días[pos] + " a " + días[pos + 1]);
 
+        for (int i = 0; i < días.length(); i++) {
+            System.out.print(días[i] + " ");
+            for (int j = 0; j < temp[i]; j++) {
+                System.out.print("*");
+
+
+            }
+            System.out.println();
+        }
+
     }
+
+    }
+
+
 }
